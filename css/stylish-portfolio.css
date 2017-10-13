@@ -172,19 +172,22 @@ hr.small {
 }
 
 
-/* About */
+/* How HTML files can access CSS */
 
 .about {
     padding: 50px 0;
     height: 100%;
+    background-color:salmon;
+    color:black
 }
 
 
-/* Services */
+/* CSS Box Model */
 
 .services {
     padding: 50px 0;
     height: 100%;
+    
 }
 
 .service-item {
@@ -195,6 +198,7 @@ hr.small {
 /* Callout */
 
 .callout {
+    padding:50px;       
     display: table;
     width: 100%;
     height: 100%;
